@@ -21,9 +21,9 @@ stock void ClearStack_Ex(ArrayStack &stack)
 	stack = new ArrayStack(blockSize);
 }
 
-stock void ClearTrie_Ex(StringMap &trie)
+stock void ClearTrie_Ex(StringMap &map)
 {
-	delete trie;
+	delete map;
 	
-	trie = new StringMap();
+	map = new StringMap();
 }
